@@ -1,0 +1,45 @@
+.main-container {
+	padding-top: 40px;
+}
+#results-search {
+	padding-top: 20px;
+}
+#results-search ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#results-search ul li {
+	list-style-type: none;
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+#results-search ul li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+
+/* Movie Panel */
+#results-movie-details th, #results-movie-details td {
+	padding: 2px 4px;
+}
+#results-movie-details th {
+	width: 100px;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 12px;
+}
+#results-movie-poster-na {
+	width: 300px;
+	height: 444px;
+	border: 1px solid #999;
+	text-align: center;
+	padding-top: 200px;
+	font-style: italic;
+	color: #bbb;
+}
+#results-movie-favorite {
+	width: 300px;
+	margin-top: 12px;
+}

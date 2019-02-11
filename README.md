@@ -1,2 +1,4 @@
 # InstructorCodeChallenge
-### GOAL   > Create a single page application that will utilize an external API to request movie data. The client side application will be served by a back-end which will have the ability to persist data.
+
+##To start the application, open a terminal windows at the project root folder 
+##and run "npm install". After the modules have finished installing run "npm start".

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GA Movie Search Code Challenge</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+	<meta name="description" content="General Assembly Movie Searching" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">GA Movie Search</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="main-container">
+
+			<h1>Movie Search</h1>
+			<p class="lead">Use the field below to search for a movie.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<input type="text" class="form-control" id="text-search" placeholder="Search the movie database">
+				</div>
+				<div class="col-md-2">
+					<button type="button" id="button-search" class="btn btn-primary">Search Database</button>
+				</div>
+				<div class="col-md-2 col-md-offset-2" style="text-align: right;">
+					<button class="btn btn-primary" id="button-favorites">View Favorites</button>
+				</div>
+			</div>
+			<div id="results-search"></div>
+			<div id="results-movie" class="hidden">
+				<h2 id="results-movie-title">Title: Mission Impossible</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<img id="results-movie-poster" src="" alt="" />
+						<div id="results-movie-poster-na">
+							No Image Available
+						</div>
+						<div>
+							<button class="btn btn-primary" id="results-movie-favorite">Favorite</button>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<table id="results-movie-details">
+							<tr>
+								<th>Released</th>
+								<td id="results-movie-released"><td>
+							</tr>
+							<tr>
+								<th>Year</th>
+								<td id="results-movie-year"><td>
+							</tr>
+							<tr>
+								<th>Country</th>
+								<td id="results-movie-country"><td>
+							</tr>
+							<tr>
+								<th>Director</th>
+								<td id="results-movie-director"><td>
+							</tr>
+							<tr>
+								<th>Writer</th>
+								<td id="results-movie-writer"><td>
+							</tr>
+							<tr>
+								<th>Actors</th>
+								<td id="results-movie-actors"><td>
+							</tr>
+							<tr>
+								<th>Awards</th>
+								<td id="results-movie-awards"><td>
+							</tr>
+							<tr>
+								<th>Runtime</th>
+								<td id="results-movie-runtime"><td>
+							</tr>
+							<tr>
+								<th>Genre</th>
+								<td id="results-movie-genre"><td>
+							</tr>
+							<tr>
+								<th>Lanugage</th>
+								<td id="results-movie-language"><td>
+							</tr>
+							<tr>
+								<th>Rated</th>
+								<td id="results-movie-rated"><td>
+							</tr>
+							<tr>
+								<th>Rating</th>
+								<td id="results-movie-imdbrating"><td>
+							</tr>
+							<tr>
+								<th>Plot</th>
+								<td id="results-movie-plot"><td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
